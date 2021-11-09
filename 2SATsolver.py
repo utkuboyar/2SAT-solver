@@ -88,9 +88,6 @@ def Tarjan(vertices):
     scc = 0
     SCCs = []
         
-    #for i in range(1, len(vertices)):
-    #while not sDFS.isEmpty():
-    #while processed_vertices > 0:
     for k in range(1, len(vertices)):
         
         if vertices[k].disc() == None:
